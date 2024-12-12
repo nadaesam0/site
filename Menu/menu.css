@@ -1,0 +1,102 @@
+body{
+    background-image: linear-gradient(to right, #d63b71, #8245c7);
+}
+.small-box{
+    background-color: #ffc500;
+    width: 260px;
+    height: 30px;
+    position: relative;
+}
+.text-small-box{
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 6px;
+    margin-left: -25px;
+}
+.small-box:hover{
+   transform: scale(1.1)
+}
+.img{
+    width: 65%;
+    height: 68%;
+    margin-left: 40px;
+    margin-top: 25px;
+    position: relative;
+
+}
+.tacos-box{
+    background-color: #ffc500;
+    width: 225px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: -270px;
+    position: absolute;
+}
+.price-box{
+    background-color: #ffc500;
+    width: 377;
+    height: 31%;
+    position: relative;
+}
+.options-box{
+    background-color: #ffffff;
+    width: 300px;
+    height: 210px;
+    position: relative;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.options-box:hover{
+    background-color: rgb(242, 187, 9);
+    transform: scale(1.1);
+}
+.option-text{
+    font-family: fantasy;
+    font-size: larger;
+    margin-left: 125px;
+    margin-top: 5px
+}
+.dis-text{
+    font-family: cursive;
+    font-size: 13px;
+    text-align: center;
+}
+.contenur{
+    background-color: #ffffff;
+    width: 1350px;
+    height: 325px;
+    margin-top: 40px;
+    margin-left: 40px;
+    position: relative;
+
+}
+.a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 7px;
+    top: 5px;
+}
+.a-box{
+    position: relative;
+    background-color: #ffc500;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: -6%;
+}
+.line-1{
+    background: linear-gradient(to right,#ffc500,transparent);
+    height: 10px;
+    width: 30%;
+    position: absolute;
+    
+}
+.line-2{
+    background: linear-gradient(to right,transparent,#ffc500);
+    height: 10px;
+    width: 30%;
+    position: absolute;
+}
